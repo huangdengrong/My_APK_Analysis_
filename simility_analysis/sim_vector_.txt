@@ -1,0 +1,89 @@
+['onAnimationEnd', 'Lbracket', 'Landroid', 'view', 'animation', 'Animation', 'Rbracket', 'void', '<init>','Lbracket', 'Lcom', 'adwo', 'adsdk', 'AdwoAdView', 'Lcom', 'adwo', 'adsdk', 'b', 'Lcom', 'adwo', 'adsdk', 'K','Rbracket', 'void', '<init>', 'Lbracket', 'Lcom', 'adwo', 'adsdk', 'AdwoAdView', 'Lcom', 'adwo', 'adsdk', 'b','Lcom', 'adwo', 'adsdk', 'K', 'Rbracket', 'void', 'post', 'Lbracket', 'Ljava', 'lang', 'Runnable', 'Rbracket','boolean']
+['onAnimationEnd', 'Lbracket', 'Landroid', 'view', 'animation', 'Animation', 'Rbracket', 'void', '<init>','Lbracket', 'Lcom', 'adwo', 'adsdk', 'AdwoAdView', 'Lcom', 'adwo', 'adsdk', 'b', 'Lcom', 'adwo', 'adsdk', 'M','Rbracket', 'void', '<init>', 'Lbracket', 'Lcom', 'adwo', 'adsdk', 'AdwoAdView', 'Lcom', 'adwo', 'adsdk', 'b','Lcom', 'adwo', 'adsdk', 'M', 'Rbracket', 'void']
+1.2069420580645482
+0a2486d773b61ff4c26f2bf68e1b143d.apk
+class_name+super_name::Lcom/adwo/adsdk/C;:Ljava/lang/Object;
+method_name+method_descriptor::onAnimationEnd(Landroid/view/animation/Animation;)V
+class_name+super_name::Lcom/adwo/adsdk/A;:Ljava/lang/Object;
+method_name+method_descriptor::onAnimationEnd(Landroid/view/animation/Animation;)V
+0f59a5aa56d786bdcbff308368e4ba78.apk
+'1-------------------------------------------------------------'
+0f59a5aa56d786bdcbff308368e4ba78.apk
+class_name+super_name::Lcn/domob/android/ads/DomobAdManager$DomobLocationListener;:Ljava/lang/Object;
+method_name+method_descriptor::onLocationChanged(Landroid/location/Location;)V
+['onLocationChanged', 'Lbracket', 'Landroid', 'location', 'Location', 'Rbracket', 'void', 'setLocation', 'Lbracket', 'Landroid', 'location', 'Location', 'Rbracket', 'Landroid', 'location', 'Location', 'setCoordTimestamp', 'Lbracket', 'long', 'Rbracket', 'long', 'removeUpdates', 'setCoordTimestamp', 'Lbracket', 'long', 'Rbracket', 'long', 'setLocation', 'Lbracket', 'Landroid', 'location', 'Location', 'Rbracket', 'Landroid', 'location', 'Location']
+0fda2efbe13b3ecde9562a4f1d7e19cb.apk
+class_name+super_name::Lcn/domob/android/ads/DomobAdManager$a;:Ljava/lang/Object;
+method_name+method_descriptor::onLocationChanged(Landroid/location/Location;)V
+['onLocationChanged', 'Lbracket', 'Landroid', 'location', 'Location', 'Rbracket', 'void', 'a', 'Lbracket', 'long', 'Rbracket', 'long', 'a', 'Lbracket', 'Landroid', 'location', 'Location', 'Rbracket', 'Landroid', 'location', 'Location', 'removeUpdates', 'a', 'Lbracket', 'Landroid', 'location', 'Location', 'Rbracket', 'Landroid', 'location', 'Location', 'a', 'Lbracket', 'long', 'Rbracket', 'long']
+1.3503154836674944
+'2-------------------------------------------------------------'
+0fda2efbe13b3ecde9562a4f1d7e19cb.apk
+class_name+super_name::Lcn/domob/android/ads/DomobAdView;:Landroid/widget/RelativeLayout;
+method_name+method_descriptor::onDetachedFromWindow()V
+['onDetachedFromWindow', 'Lbracket', 'Rbracket', 'void', 'b', 'Lbracket', 'Rbracket', 'void', 'b', 'Lbracket', 'Rbracket', 'void']
+0f59a5aa56d786bdcbff308368e4ba78.apk
+class_name+super_name::Lcn/domob/android/ads/DomobAdView;:Landroid/widget/RelativeLayout;
+method_name+method_descriptor::onDetachedFromWindow()V
+['onDetachedFromWindow', 'Lbracket', 'Rbracket', 'void', 'b', 'Lbracket', 'Rbracket', 'void', 'saveAvg2DB', 'Lbracket', 'Rbracket', 'void', 'saveAvg2DB', 'Lbracket', 'Rbracket', 'void', 'c', 'Lbracket', 'Rbracket', 'long', 'b', 'Lbracket', 'Rbracket', 'void']
+1.1533331704840628
+'3----------------------------------'
+0f59a5aa56d786bdcbff308368e4ba78.apk
+class_name+super_name::Lcn/domob/android/ads/DomobInApp$1;:Landroid/webkit/WebViewClient;
+method_name+method_descriptor::onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V
+['onPageFinished', 'Lbracket', 'Landroid', 'webkit', 'WebView', 'Ljava', 'lang', 'String', 'Rbracket', 'void', 'e', 'Lbracket', 'Lcn', 'domob', 'android', 'ads', 'DomobInApp', 'Rbracket', 'Landroid', 'widget', 'ImageView', 'e', 'Lbracket', 'Lcn', 'domob', 'android', 'ads', 'DomobInApp', 'Rbracket', 'Landroid', 'widget', 'ImageView']
+0fda2efbe13b3ecde9562a4f1d7e19cb.apk
+class_name+super_name::Lcn/domob/android/ads/g$6;:Landroid/webkit/WebViewClient;
+method_name+method_descriptor::onPageFinished(Landroid/webkit/WebView; Ljava/lang/String;)V
+['onPageFinished', 'Lbracket', 'Landroid', 'webkit', 'WebView', 'Ljava', 'lang', 'String', 'Rbracket', 'void', 'a', 'Lbracket', 'Lcn', 'domob', 'android', 'ads', 'f', 'Ljava', 'lang', 'String', 'Ljava', 'lang', 'String', 'Ljava', 'util', 'HashMap', 'Rbracket', 'void', 'h', 'Lbracket', 'Lcn', 'domob', 'android', 'ads', 'g', 'Rbracket', 'boolean', 'a', 'Lbracket', 'Lcn', 'domob', 'android', 'ads', 'f', 'Ljava', 'lang', 'String', 'Ljava', 'lang', 'String', 'Ljava', 'util', 'HashMap', 'Rbracket', 'void', 'b', 'Lbracket', 'Rbracket', 'Landroid', 'app', 'Dialog', '<init>', 'Lbracket', 'Lcn', 'domob', 'android', 'ads', 'f', 'Ljava', 'lang', 'String', 'Ljava', 'util', 'HashMap', 'Ljava', 'lang', 'String', 'Ljava', 'lang', 'String', 'Landroid', 'webkit', 'WebView', 'Rbracket', 'void', 'h', 'Lbracket', 'Lcn', 'domob', 'android', 'ads', 'g', 'Rbracket', 'boolean']
+3.4729742519458795
+'4---------------------------------------'
+'---------------------------------良性的-------------------------------------'
+class_name+super_name::Landroid/support/v4/a/ag;:Landroid/transition/Transition$EpicenterCallback;
+method_name+method_descriptor::dispatchKeyEvent(Landroid/view/KeyEvent;)Z
+['dispatchKeyEvent', 'Lbracket', 'Landroid', 'view', 'KeyEvent', 'Rbracket', 'boolean', 'a', 'Lbracket', 'Landroid', 'view', 'KeyEvent', 'Rbracket', 'boolean', 'a', 'Lbracket', 'Landroid', 'view', 'KeyEvent', 'Rbracket', 'boolean']
+method_name+method_descriptor::dispatchKeyEvent(Landroid/view/KeyEvent;)Z
+['dispatchKeyEvent', 'Lbracket', 'Landroid', 'view', 'KeyEvent', 'Rbracket', 'boolean', 'dispatchKeyEvent', 'Lbracket', 'Landroid', 'view', 'KeyEvent', 'Rbracket', 'boolean']
+1.9621348055176708
+’5-------------------------------------------------------‘
+class_name+super_name::Lcom/adwo/adsdk/v;:Landroid/webkit/WebViewClient;
+method_name+method_descriptor::shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z
+['shouldOverrideUrlLoading', 'Lbracket', 'Landroid', 'webkit', 'WebView', 'Ljava', 'lang', 'String', 'Rbracket', 'boolean', '<init>', 'Lbracket', 'Lcom', 'adwo', 'adsdk', 'v', 'Ljava', 'lang', 'String', 'Landroid', 'app', 'Activity', 'Rbracket', 'void', 'openConnection', 'java', 'net', 'HttpURLConnection', 'java', 'net', 'HttpURLConnection', 'android', 'net', 'Uri', 'parse', 'android', 'net', 'Uri', 'parse', 'android', 'net', 'Uri', 'parse', 'setDataAndType', 'Intent', 'Lbracket', 'Rbracket', 'Intent', 'Lbracket', 'Rbracket', 'Intent', 'Lbracket', 'Rbracket', 'Intent', 'Lbracket', 'Rbracket', 'Intent', 'Lbracket', 'Rbracket', 'Intent', 'Lbracket', 'Rbracket', 'Intent', 'Lbracket', 'Rbracket', '<init>', 'Lbracket', 'Lcom', 'adwo', 'adsdk', 'v', 'Ljava', 'lang', 'String', 'Landroid', 'app', 'Activity', 'Rbracket', 'void']
+class_name+super_name::Lnet/youmi/android/cb;:Landroid/webkit/WebViewClient;
+method_name+method_descriptor::shouldOverrideUrlLoading(Landroid/webkit/WebView; Ljava/lang/String;)Z
+['shouldOverrideUrlLoading', 'Lbracket', 'Landroid', 'webkit', 'WebView', 'Ljava', 'lang', 'String', 'Rbracket', 'boolean', 'android', 'net', 'Uri', 'parse', 'Intent', 'Lbracket', 'Rbracket']
+3.5441727449284914
+‘6-----------------------------------------------’
+class_name+super_name::Lcom/adwo/adsdk/AdwoSplashAdActivity;:Landroid/app/Activity;
+method_name+method_descriptor::onCreate(Landroid/os/Bundle;)V
+['onCreate', 'Lbracket', 'Landroid', 'os', 'Bundle', 'Rbracket', 'void', 'a', 'Lbracket', 'Lcom', 'adwo', 'adsdk', 'T', 'Rbracket', 'void', '<init>', 'Lbracket', 'Landroid', 'content', 'Context', 'Ljava', 'lang', 'String', 'Rbracket', 'void', 'Intent', 'Lbracket', 'Rbracket', 'setContentView', 'Lbracket', 'Landroid', 'view', 'View', 'Rbracket', 'void', 'a', 'Lbracket', 'Lcom', 'adwo', 'adsdk', 'T', 'Rbracket', 'void', 'getApplicationContext', 'Lbracket', 'Rbracket', 'Landroid', 'content', 'Context', '<init>', 'Lbracket', 'Landroid', 'content', 'Context', 'Ljava', 'lang', 'String', 'Rbracket', 'void', 'getIntent', 'Lbracket', 'Rbracket', 'Landroid', 'content', 'Intent', 'setRequestedOrientation', 'Lbracket', 'int', 'Rbracket', 'void']
+class_name+super_name::Lcom/adwo/adsdk/AdwoAdBrowserActivity;:Landroid/app/Activity;
+method_name+method_descriptor::onCreate(Landroid/os/Bundle;)V
+['onCreate', 'Lbracket', 'Landroid', 'os', 'Bundle', 'Rbracket', 'void', 'Intent', 'Lbracket', 'Rbracket', 'Intent', 'Lbracket', 'Rbracket', 'requestWindowFeature', 'Lbracket', 'int', 'Rbracket', 'boolean', 'setRequestedOrientation', 'Lbracket', 'int', 'Rbracket', 'void', 'setProgressBarVisibility', 'Lbracket', 'boolean', 'Rbracket', 'void', 'setContentView', 'Lbracket', 'Landroid', 'view', 'View', 'Rbracket', 'void', 'getIntent', 'Lbracket', 'Rbracket', 'Landroid', 'content', 'Intent']
+3.002617860324509
+‘7--------------------------------------------------’
+0fda2efbe13b3ecde9562a4f1d7e19cb.apk
+class_name+super_name::Lcom/google/update/Receiver;:Landroid/content/BroadcastReceiver;
+method_name+method_descriptor::onReceive(Landroid/content/Context; Landroid/content/Intent;)V
+['onReceive', 'Lbracket', 'Landroid', 'content', 'Context', 'Landroid', 'content', 'Intent', 'Rbracket', 'void', 'android', 'intent', 'action', 'BOOT_COMPLETED', 'getApplicationInfo', 'Intent', 'Lbracket', 'Rbracket']
+0a2486d773b61ff4c26f2bf68e1b143d.apk
+class_name+super_name::Lcom/google/update/Receiver;:Landroid/content/BroadcastReceiver;
+method_name+method_descriptor::onReceive(Landroid/content/Context; Landroid/content/Intent;)V
+['onReceive', 'Lbracket', 'Landroid', 'content', 'Context', 'Landroid', 'content', 'Intent', 'Rbracket', 'void', 'android', 'intent', 'action', 'BOOT_COMPLETED', 'getApplicationInfo', 'Intent', 'Lbracket', 'Rbracket']
+1.7832121153904148
+‘8------------------------------------’
+class_name+super_name::Lcn/domob/android/ads/DBHelper;:Landroid/database/sqlite/SQLiteOpenHelper;
+method_name+method_descriptor::onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
+['onCreate', 'Lbracket', 'Landroid', 'database', 'sqlite', 'SQLiteDatabase', 'Rbracket', 'void']
+class_name+super_name::Lcom/adwo/adsdk/a;:Landroid/database/sqlite/SQLiteOpenHelper;
+method_name+method_descriptor::onCreate(Landroid/database/sqlite/SQLiteDatabase;)V
+['onCreate', 'Lbracket', 'Landroid', 'database', 'sqlite', 'SQLiteDatabase', 'Rbracket', 'void']
+0.0
+‘-----------------------------------9--------------------------------------------‘
+class_name+super_name::Lcn/domob/android/ads/DomobAdView;:Landroid/widget/RelativeLayout;
+method_name+method_descriptor::onDetachedFromWindow()V
+['onDetachedFromWindow', 'Lbracket', 'Rbracket', 'void', 'saveAvg2DB', 'Lbracket', 'Rbracket', 'void', 'b', 'Lbracket', 'Rbracket', 'void', 'saveAvg2DB', 'Lbracket', 'Rbracket', 'void', 'c', 'Lbracket', 'Rbracket', 'long', 'b', 'Lbracket', 'Rbracket', 'void']
+class_name+super_name::Lcn/domob/android/ads/DomobAdView;:Landroid/widget/RelativeLayout;
+method_name+method_descriptor::onDetachedFromWindow()V
+['onDetachedFromWindow', 'Lbracket', 'Rbracket', 'void', 'b', 'Lbracket', 'Rbracket', 'void', 'b', 'Lbracket', 'Rbracket', 'void']
+'---------------------10---------------------------'
