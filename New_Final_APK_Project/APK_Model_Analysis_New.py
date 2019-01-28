@@ -80,6 +80,9 @@ def Show_APKs(X,amd_X,Z,amd_Z,color_x,color_y):
     show_APK(X,Z,color_x,ax)
     show_APK(amd_X,amd_Z,color_y,ax)
     pyplot.show()
+def Show_only_APKS(X,color):
+    Two_show_APK(X, color)
+    plt.show()
 def Two_show_APK(X,color):
     tsne = TSNE(n_components=2)
     X_tsne = tsne.fit_transform(X)
@@ -128,26 +131,61 @@ def Read_amd_data(path):#用于读取amd_data
         return 'Error,not a dir'
 #用于处理amd数据集
 def Deal_all_amd_data():
-    path = "F:\\2018年第一学年科研\\APK科研\\数据集\\amd_data\\AndroRAT\\variety1\\5afbd9a4ce382f44e8126970d99375ff.apk"
+    # path='F:\\2018年第一学年科研\\APK科研\\数据集\\seprated_apks\\entertainment_succeed\\com.android.music_2.apk'
+    # path='F:\\2018年第一学年科研\\APK科研\\数据集\\seprated_apks\\game_succeed\\com.dftec.planetcon_13.apk'
+    # path = 'F:\\2018年第一学年科研\\APK科研\\数据集\\seprated_apks\\game_succeed\\com.quaap.phonefonefun_12.apk'
+    path='F:\\2018年第一学年科研\\APK科研\\数据集\\amd_data\\Cova\\variety1\\ad8c7d1c59bb5fe27a8a0a7ef8db89a9.apk'
+    # path='F:\\2018年第一学年科研\\APK科研\\数据集\\amd_data\\Andup\\variety1\\3ce7135abc9ce18e39b807fee552c5be.apk'
+    # path='F:\\2018年第一学年科研\\APK科研\\数据集\\amd_data\\AndroRAT\\variety1\\8b237024d75c18e063d95ff0f85b1457.apk'
+    # path='F:\\2018年第一学年科研\\APK科研\\数据集\\amd_data\\Andup\\variety1\\621088b20ffe2c5531e337bb6bfa3736.apk'
     tsne = TSNE(n_components=2)
     all_amd_methods, amd_method_message,all_methods, method_message, is_amd_class_code_dic,all_class = Analysis_APK_Model(path)
     #用于对所有的方法向量进行降维
     X_tsne = tsne.fit_transform(method_message)
-    amd_X_tsne=tsne.fit_transform(amd_method_message)
-    Z=[]
-    for key in all_methods:
-        print(key)
-        print(find_index(key[1],all_class))
-        Z.append(find_index(key[1],all_class))
-        print(is_amd_class_code_dic[key[1]][key[0]])
-    amd_Z=[]
-    for key in all_amd_methods:
-        print(find_index(key[1],all_class))
-        amd_Z.append(find_index(key[1],all_class))
-        print(is_amd_class_code_dic[key[1]][key[0]])
-    # show_APK(X_tsne,Z,'r')
-    Show_APKs(X_tsne,amd_X_tsne,Z,amd_Z,'b','r')
-    Two_Show_APKs(X_tsne,amd_X_tsne,'b','r')
+    print(len(amd_method_message))
+    if len(amd_method_message)>1:
+        amd_X_tsne = tsne.fit_transform(amd_method_message)
+        with open('F:\\2018年第一学年科研\\APK科研\\数据集\\Word2vec_ao_yuliaoku\\vector.csv', 'w', newline='')as csvfile:
+            writer = csv.writer(csvfile)
+            print('-----------------------vector----------------------')
+            for key in method_message:
+                print(key)
+                writer.writerow(key)
+            Z = []
+            for key in all_methods:
+                print(str(key))
+                # print(find_index(key[1],all_class))
+                Z.append(find_index(key[1], all_class))
+                print(is_amd_class_code_dic[key[1]][key[0]])
+            print('------------------------')
+            for key in amd_method_message:
+                print(key)
+                writer.writerow(key)
+            amd_Z = []
+            for key in all_amd_methods:
+                # print(find_index(key[1],all_class))
+                amd_Z.append(find_index(key[1], all_class))
+                print(is_amd_class_code_dic[key[1]][key[0]])
+            # show_APK(X_tsne,Z,'r')
+            # Show_APKs(X_tsne, amd_X_tsne, Z, amd_Z, 'b', 'r')
+            Two_Show_APKs(X_tsne, amd_X_tsne, 'b', 'r')
+    else:
+        with open('F:\\2018年第一学年科研\\APK科研\\数据集\\Word2vec_ao_yuliaoku\\vector.csv', 'w', newline='')as csvfile:
+            writer = csv.writer(csvfile)
+            print('-----------------------vector----------------------')
+            for key in method_message:
+                print(key)
+                writer.writerow(key)
+            Z = []
+            for key in all_methods:
+                print(str(key))
+                # print(find_index(key[1],all_class))
+                Z.append(find_index(key[1], all_class))
+                # print(is_amd_class_code_dic[key[1]][key[0]])
+            print('------------------------')
+            Show_only_APKS(X_tsne,'b')
+
+
 def test():
     plt.title("I'm a scatter diagram.")
     plt.xlim(xmax=7, xmin=0)
